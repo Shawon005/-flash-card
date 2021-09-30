@@ -37,7 +37,7 @@ flashcardMaker = (text) => {
   question.setAttribute("style", "border-top:1px solid red; padding: 15px; margin-top:30px");
   question.textContent = text.my_question;
 
-  answer.setAttribute("style", "text-align:center; display:none; color:red");
+  answer.setAttribute("style", "text-align:center; display:none; color:black");
   answer.textContent = text.my_answer;
    
   editBtn.setAttribute("style", " padding: 15px; margin-top:100px; ");
